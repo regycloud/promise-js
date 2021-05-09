@@ -14,3 +14,8 @@ const handleFailure = value => {
 }
 
 checkInventory(order).then(handleSuccess, handleFailure);
+
+// using catch
+checkInventory(order)
+.then(handleSuccess)
+.catch(handleFailure);
