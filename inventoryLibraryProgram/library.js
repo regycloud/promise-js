@@ -96,4 +96,3 @@ const inventory = {
   }
   
   module.exports = {checkInventory, processPayment, shipOrder};
-  module.exports = { checkInventory };
